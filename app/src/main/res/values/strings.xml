@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="name">আগামীর প্রজন্ম</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_before">fsdfsd</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_mafood2">Noo</string>
+    <string name="title_activity_baby">BabyActivity</string>
+    <string name="title_activity_babyhealth">BabyhealthActivity</string>
+    <string name="title_activity_tika">Tika</string>
+    <string name="title_activity_after">After</string>
+    <string name="title_activity_emergency">Emergency</string>
+
+</resources>

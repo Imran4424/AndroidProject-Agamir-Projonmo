@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/baby">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#7F8D8E">
+
+
+        <Button
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="পিছনে"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:onClick="baPage"
+            android:background="@drawable/buttonshape"/>
+
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="স্বাস্থচিত্র"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/textView"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFFF"
+            />
+
+        <Button
+            android:id="@+id/ho"
+
+            android:text="হোম"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:layout_marginTop="1dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/buttonshape"
+            android:layout_marginLeft="25dp"
+            android:shadowRadius="5"
+            android:onClick="mnPage"
+            />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/index"/>
+
+
+</LinearLayout>

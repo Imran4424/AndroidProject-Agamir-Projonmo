@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/befor">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#7F8D8E"
+        android:paddingBottom="5dp"
+        >
+
+
+        <Button
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="পিছনে"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/buttonshape"
+            android:onClick="sendBack"/>
+
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="পূর্বে(শিশু জন্মের)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/textView"
+            android:layout_marginLeft="45dp"
+
+            android:textColor="#FFFF"
+            />
+
+        <Button
+            android:id="@+id/ho"
+
+            android:text="হোম"
+            android:textColor="#000"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/buttonshape"
+            android:layout_marginLeft="18dp"
+            android:shadowRadius="5"
+            android:onClick="sendHome"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="খাদ্যাভ্যাস"
+                android:onClick="sendmaFood"
+
+                />
+
+            <Button
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="যত্ন"
+
+                />
+
+            <Button
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="টিকা"
+                android:onClick="sendTika"
+
+                />
+
+            <Button
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="পোশাক"
+
+                />
+
+            <Button
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="বিপদজনক লক্ষণসমূহ"
+
+                />
+            <Button
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="প্রসব পূর্ব প্রস্তুতি"
+
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

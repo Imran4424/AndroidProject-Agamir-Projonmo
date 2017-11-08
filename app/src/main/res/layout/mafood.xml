@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/maa">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#7F8D8E">
+
+
+        <Button
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="পিছনে"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/buttonshape"
+            android:onClick="sendBack"/>
+
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="খাদ্যাভাস"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/textView"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFFF"
+            />
+
+        <Button
+            android:id="@+id/ho"
+
+            android:text="হোম"
+            android:textColor="#000"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/buttonshape"
+            android:layout_marginLeft="8dp"
+            android:shadowRadius="5"
+            android:onClick="sendHome"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="শুনুন"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/start"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="থামান"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginLeft="150dp"
+            android:id="@+id/stop"
+            />
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="সন্তান জন্মের আগে
+
+	মায়ের স্বাস্থ্য
+
+		*  গর্ভকালীন সময়ে ভারি কাজ করা যাবে না, যেমন - ভারি কাপড় ধোয়া, ধান ভানা, টিউবওয়েল চাপা, ভারি জিনিস তোলা, বেশি সিড়ি ভাঙা ইত্যাদি।
+		* গর্ভবতীর শরীরে ঝাঁকি লাগে এমন কাজ এবং দূরে যাতায়াত করা যাবে না।
+		* গর্ভবতীকে দিনের বেলা অন্তত ২ ঘন্টা বিশ্রাম নিতে হবে।
+		* গর্ভবস্ত শিশুর সঠিক পুষ্টি নিশ্চিত করতে এ সময় গর্ভবতীকে প্রতি বেলায় স্বাভাবিকের চেয়ে একটু বেশি পরিমাণে পুষ্টিকর খাবার খেতে হবে। যেমন -
+			# শক্তিদায়ক খাবারঃ
+				ভাত, রুটি / পরোটা, আলু, চিনি, গুড়, সুজি, সয়াবিন তেল, বাদাম, কলিজা, ঘি, মাখন, চর্বি, ডিমের কুসুম ইত্যাদি।
+			# ক্ষয়পূরণকারী এবং শরীর বৃদ্ধিকারক খাবারঃ
+				মাছ, মাংস, দুধ, ডিমের সাদা অংশ এবং বিভিন্ন ধরনের ডাল, মটরশুটি, শিমের বীচি, বাদাম, তিল, সরিষা ইত্যাদি।
+			# রোগ প্রতিরোধক খাবারঃ
+				সবুজ, হলুদ ও অন্যান্য রঙিন শাক-সবজি এবং সবধরনের মৌসুমী ফলমূল। গর্ভবতীকে এসব খাবারের তালিকা থেকে প্রতিদিন ৩ ধরনের খাবারই কিছু  কিছু খেতে হবে।
+
+		* গর্ভবতী যেন সবসময় হাসিখুশি থাকে সেদিকে খেয়াল রাখা জরুরি।
+		* গর্ভবতীকে প্রতিদিন ভরাপেটে ১টি করে আয়রন / ফলিক এসিড ট্যাবলেট একটানা কমপক্ষে ১২০ দিন খেতে হবে। তবে স্বাস্থ্যকর্মী বা ডাক্তারের পরামর্শ ছাড়া কোন ওষুধ খাওয়া যাবে না।
+		* গর্ভস্থ শিশুর বুদ্ধি বিকাশ ও গর্ভপাতের ঝুঁকি প্রতিরোধের জন্য  প্রতিদিন তরকারিতে আয়োডিনযুক্ত প্যাকেট লবণ খেতে হবে। তবে অতিরিক্ত লবণ বা ভাতে কাঁচা লবণ খাওয়া যাবে না।
+		* গর্ভবতীকে বেশি করে পানি খেতে হবে ( কমপক্ষে ৮ - ১০ গ্লাস)।
+
+	চেকাপ
+		* ১ম চেকআপ গর্ভবতী হওয়ার পরে যত তাড়াতাড়ি সম্ভব
+		* ২য় চেকআপ গর্ভধারনের ৪ - ৬ মাসের মধ্যে
+		*  ৩য় চেকআপ গর্ভধারনের ৮ মাস পরে
+		*  ২য় চেকআপ গর্ভধারনের ৯ মাস হলে
+
+	বিপদজনক লক্ষণসমূহ
+		গর্ভ, প্রসব ও প্রসব পরবর্তীসময়ে মায়ের প্রধান ৫ টি বিপদচিহ্ন
+			রক্তস্রাব
+				গর্ভাবস্থায় রক্তস্রাব, প্রসবের সময় বা প্রসবের পরে খুব বেশি রক্তস্রাব, গর্ভফুল না পড়া।
+			মাথাব্যাথা ও ঝাপসা দেখাঃ
+				গর্ভাবস্থায় প্রসবকালে ও প্রসবের প্রএ শরীরে পানি আসা, খুব বেশি মাথা ব্যাথা ও চোখে ঝাপসা দেখাঃ
+			খিঁচুনি
+				গর্ভাবস্থায় বা প্রসব পরবর্তী সময়ে তিন দিনের বেশি জ্বর বা দুর্গন্ধযুক্ত স্রাব
+			বিলম্বিত প্রসব
+				প্রসব ব্যাথা ১২ ঘন্টার বেশি থাকা প্রসবের সময় বাচ্চার মাথা ছাড়া অন্যকোন অংগ প্রথমে বের হওয়া
+			ভীষন জ্বর
+				গর্ভাবস্থায়, প্রসবের সময় বা প্রসবের পরে খিঁচুনি।
+
+	প্রসব পরিকল্পনা
+		* কোথায় ডেলিভারি করানো হবে সে ব্যাপারে পরিবারে আগে থেকেই সিধান্ত নিতে হবে
+		* প্রসব করানোর জন্য নিকটস্থ হাসপাতালে অথবা স্বাস্থ্যকেন্দ্রের সাথে যোগাযোগ করে রাখুন।"/>
+
+
+    </ScrollView>
+</LinearLayout>

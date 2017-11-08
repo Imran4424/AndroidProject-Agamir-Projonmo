@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    tools:context=".MainActivity"
+    android:background="#EEF3F4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#009688"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="মায়ের পরিচর্যা"
+        android:id="@+id/button"
+        android:layout_marginTop="40dp"
+        android:background="#F49D1E"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30sp"
+        android:onClick="sendMa"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="শিশুর পরিচর্যা"
+        android:id="@+id/button2"
+        android:background="#F1C416"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30sp"
+        android:layout_below="@+id/button"
+        android:onClick="sendBaby"
+         />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:text="ই-ডাক্তার"
+        android:id="@+id/button3"
+        android:background="#9ccc65"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:text="অনুস্মারক"
+        android:id="@+id/button4"
+        android:background="#558b2f"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="44dp"
+        android:layout_marginLeft="65dp"
+
+        />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:text="কমিউনিটি"
+        android:id="@+id/button5"
+        android:background="#7cb342"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        android:layout_marginRight="65dp"
+        android:layout_alignTop="@+id/button4"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+
+        />
+
+</RelativeLayout>

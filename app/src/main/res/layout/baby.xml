@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/baby">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#7F8D8E"
+        >
+
+
+        <Button
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="পিছনে"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:onClick="sendBack"
+            android:background="@drawable/buttonshape"/>
+
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="শিশুর পরিচর্যা"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/textView"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFFF"
+            />
+
+        <Button
+            android:id="@+id/ho"
+
+            android:text="হোম"
+            android:textColor="#000"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/buttonshape"
+            android:layout_marginLeft="8dp"
+            android:shadowRadius="5"
+            android:onClick="sendHome"
+            />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="স্বাস্থচিত্র"
+                android:onClick="healthPage"
+
+                />
+
+            <Button
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="টিকা"
+
+                />
+
+            <Button
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="পোশাক"
+
+                />
+
+
+
+            <Button
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="বিপদজনক রোগসমূহ"
+
+                />
+
+            <Button
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="জরুরী যোগাযোগ "
+
+                />
+            <Button
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="অনলাইন বেবী শপিং"
+
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

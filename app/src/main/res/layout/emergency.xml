@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#7F8D8E">
+
+
+        <Button
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="পিছনে"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/buttonshape"
+            android:onClick="sendBack"/>
+
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="জরুরী যোগাযোগ"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/textView"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFFF"
+            />
+
+        <Button
+            android:id="@+id/ho"
+
+            android:text="হোম"
+            android:textColor="#000"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/buttonshape"
+            android:layout_marginLeft="28dp"
+            android:shadowRadius="5"
+            android:onClick="sendHome"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="170dp"
+        android:background="#43A047"
+        android:paddingTop="5dp"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:text="নিকটস্থ হাসপাতাল"
+            android:textSize="25sp"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:text="জরুরী ডাক্তার"
+            android:textSize="25sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:background="#9E9E9E"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:layout_width="163dp"
+            android:layout_height="125dp"
+            android:text="জরুরী রক্ত সরবরাহ"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            />
+
+        <Button
+            android:layout_width="163dp"
+            android:layout_height="125dp"
+            android:text="আর্থিক নিরাপত্তা"
+            android:textSize="25sp"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
